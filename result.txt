@@ -1,38 +1,41 @@
  Pozytywne kraje: 
-Guatemala
-Saudi Arabia
-Qatar
-Panama
-Brazil
-Uruguay
-El Salvador
-Bahrain
-Trinidad and Tobago
-Uzbekistan
-Colombia
-Nicaragua
-Kosovo
-Argentina
-Cyprus
-Ecuador
+Israel
+Malta
+Spain
+Italy
+Lithuania
+Slovenia
+Romania
 Kuwait
-Thailand
-Jamaica
-Mauritius
-Honduras
-Paraguay
-Peru
-Philippines
+Latvia
+South Korea
+Kazakhstan
+Hungary
+Northern Cyprus
+Portugal
+Pakistan
+Russia
 Serbia
+Moldova
 Libya
 Montenegro
-Dominican Republic
+Tajikistan
+Croatia
+Hong Kong
 Bosnia and Herzegovina 
+Turkey
+Belarus
 Greece
-Nigeria
+Mongolia
+Macedonia
+Turkmenistan
+Algeria
 Morocco
-Indonesia
+Azerbaijan
+Lebanon
+Vietnam
 Cameroon
+Bulgaria
 Ghana
 Ivory Coast
 Nepal
@@ -40,43 +43,39 @@ Jordan
 Benin
 Congo (Brazzaville)
 Gabon
-South Africa
 Albania
 Venezuela
-Cambodia
 Palestinian Territories
-Namibia
 Niger
 Burkina Faso
 Armenia
 Iran
 Guinea
-Gambia
-Kenya
+Georgia
+Mauritania
 Mozambique
 Tunisia
+Bangladesh
 Iraq
 Congo (Kinshasa)
-Mali
 Sierra Leone
-Sri Lanka
 Chad
-Swaziland
+Ukraine
+Ethiopia
 Uganda
+Egypt
 Zambia
 Togo
+India
 Liberia
-Comoros
-Madagascar
-Lesotho
 Burundi
-Zimbabwe
 Haiti
 Botswana
 Syria
 Malawi
 Yemen
 Tanzania
+Afghanistan
 Central African Republic
 South Sudan
  Wolne kraje: 

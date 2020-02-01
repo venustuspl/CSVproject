@@ -18,12 +18,16 @@ public class Main {
         List<String> positiveCountryList = new ArrayList();
         Map<String, String> freedomMap = new TreeMap<>(Collections.reverseOrder());
         Map<String, String> corruptionMap = new TreeMap<>(Collections.reverseOrder());
-
+        String trialRecord = "";
         for (CSVRecord record : records) {
 
             freedomMap.put(record.get(6), record.get(0));
             corruptionMap.put(record.get(7), record.get(0));
-            if (Integer.valueOf(record.get(3)) > 76) {
+            trialRecord = record.get(3);
+            if (trialRecord.equals("")){
+                trialRecord="0";
+            }
+            if (Integer.valueOf(trialRecord) > 76) {
                 positiveCountryList.add(record.get(0));
 
             }
