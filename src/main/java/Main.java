@@ -23,7 +23,7 @@ public class Main {
 
             freedomMap.put(record.get(6), record.get(0));
             corruptionMap.put(record.get(7), record.get(0));
-            if (Integer.valueOf(record.get(2)) > 76) {
+            if (Integer.valueOf(record.get(3)) > 76) {
                 positiveCountryList.add(record.get(0));
 
             }
