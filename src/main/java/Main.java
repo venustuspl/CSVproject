@@ -11,9 +11,7 @@ public class Main {
         for (CSVRecord record : records) {
 
             if (record.get(0).equals(country)) {
-                System.out.println(record.get(3));
                 return Integer.valueOf(record.get(3));
-
             }
         }
         return 0;
@@ -29,7 +27,8 @@ public class Main {
         List<String> positiveCountryList = new ArrayList();
         Map<String, String> freedomMap = new TreeMap<>(Collections.reverseOrder());
         Map<String, String> corruptionMap = new TreeMap<>(Collections.reverseOrder());
-        Integer compareValue = Main.findCountryPositiveAltitude(records, "Poland");
+        String compareCountry = "Poland";
+        Integer compareValue = Main.findCountryPositiveAltitude(records, compareCountry);
         String trialRecord = "";
         for (CSVRecord record : records) {
 
@@ -46,7 +45,7 @@ public class Main {
         }
         try {
             PrintWriter out = new PrintWriter(rusultFile);
-            out.append("\n" + "1. Pozytywne kraje: " + "\n");
+            out.append("\n" + "1. Kraje z bardziej posytywnym nastawieniem niż " + compareCountry + " :" + "\n");
             for (String entry : positiveCountryList) {
                 out.append(entry + "\n");
             }
