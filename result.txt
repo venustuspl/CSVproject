@@ -1,8 +1,5 @@
- Pozytywne kraje: 
-Israel
-Malta
-Spain
-Italy
+
+1. Pozytywne kraje: 
 Lithuania
 Slovenia
 Romania
@@ -78,15 +75,17 @@ Tanzania
 Afghanistan
 Central African Republic
 South Sudan
- Wolne kraje: 
-Uganda99
-Chile98
-Lesotho97
-Zimbabwe96
-Spain95
- Kraje o dużej korupcji: 
-Chile99
-Namibia98
-Slovenia97
-Mauritius96
-Uganda95
+
+2. Najbardziej wolnościowe kraje: 
+Uganda 99
+Lesotho 97
+Zimbabwe 96
+Liberia 94
+Congo (Brazzaville) 92
+
+3. Kraje o największej korupcji: 
+Namibia 98
+Slovenia 97
+Mauritius 96
+Uganda 95
+Cambodia 94
