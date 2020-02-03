@@ -21,15 +21,19 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Reader in = new FileReader("happiness.csv");
-        String rusultFile = "result.txt";
+        String resultFile = "result.txt";
 
         Iterable<CSVRecord> records = CSVFormat.DEFAULT.withFirstRecordAsHeader().parse(in);
+
         List<String> positiveCountryList = new ArrayList();
         Map<String, String> freedomMap = new TreeMap<>(Collections.reverseOrder());
         Map<String, String> corruptionMap = new TreeMap<>(Collections.reverseOrder());
+
+        //Można użyć Scanner.in
         String compareCountry = "Poland";
         Integer compareValue = Main.findCountryPositiveAltitude(records, compareCountry);
         String trialRecord = "";
+
         for (CSVRecord record : records) {
 
             freedomMap.put(record.get(6), record.get(0));
@@ -44,7 +48,7 @@ public class Main {
             }
         }
         try {
-            PrintWriter out = new PrintWriter(rusultFile);
+            PrintWriter out = new PrintWriter(resultFile);
             out.append("\n" + "1. Kraje z bardziej posytywnym nastawieniem niż " + compareCountry + " :" + "\n");
             for (String entry : positiveCountryList) {
                 out.append(entry + "\n");
@@ -68,7 +72,6 @@ public class Main {
                 out.append(entry.getValue() + " " + entry.getKey() + "\n");
                 i++;
                 if (i == 5) {
-                    i = 0;
                     break;
 
                 }
